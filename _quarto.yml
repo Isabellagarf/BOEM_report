@@ -5,11 +5,11 @@ project:
 book:
   title: BOEM Report
   subtitle: Report prepared by NOAA Northeast Fisheries Science Center 
-  date: 
+  date: March 2025
   downloads: [pdf, docx]
+  author:
   - name: Sofie M. Van Parijs
-    affiliations:
-      - ref: nefsc-psd
+   
 
   chapters:
     - index.qmd
