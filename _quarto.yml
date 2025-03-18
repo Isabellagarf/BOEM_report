@@ -3,24 +3,21 @@ project:
   output-dir: docs
 
 book:
-  title: Vessel presence in Two Rocks Marine Park assessed using passive acoustic monitoring
-  subtitle: Report prepared by NOAA Northeast Fisheries Science Center for Parks Australia
-  date: January 2023
+  title: BOEM Report
+  subtitle: Report prepared by NOAA Northeast Fisheries Science Center 
+  date: 
   downloads: [pdf, docx]
   author:
-  - name: Rochelle Gordon
+  - name: 
     affiliations:
-      - id: nefsc-psd
-        name: Northeast Fisheries Science Center
-        department: Protected Species Division
+      - id: 
+        name: 
+        department: 
         address: 
-          - 166 Water Street
-          - Woods Hole, Massachusetts 02543
-      - id: Az
-        name: Azura Consulting, LLC.
-  - name: Jessica A. McCordic
+         
+  - name: 
     affiliations:
-      - ref: nefsc-psd
+      - ref: 
   - name: Sofie M. Van Parijs
     affiliations:
       - ref: nefsc-psd
