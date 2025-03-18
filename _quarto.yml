@@ -19,7 +19,7 @@ book:
     - references.qmd
 
   site-url: https://nmfs-opensci.github.io/NOAA-tech-memo-template/
-  repo-url: https://github.com/Isabellagarf/Report_Example
+  repo-url: https://github.com/Isabellagarf/BOEM_report
   repo-actions: [edit, source, issue]
   search: true
 
