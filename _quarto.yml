@@ -1,0 +1,66 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: Vessel presence in Two Rocks Marine Park assessed using passive acoustic monitoring
+  subtitle: Report prepared by NOAA Northeast Fisheries Science Center for Parks Australia
+  date: January 2023
+  downloads: [pdf, docx]
+  author:
+  - name: Rochelle Gordon
+    affiliations:
+      - id: nefsc-psd
+        name: Northeast Fisheries Science Center
+        department: Protected Species Division
+        address: 
+          - 166 Water Street
+          - Woods Hole, Massachusetts 02543
+      - id: Az
+        name: Azura Consulting, LLC.
+  - name: Jessica A. McCordic
+    affiliations:
+      - ref: nefsc-psd
+  - name: Sofie M. Van Parijs
+    affiliations:
+      - ref: nefsc-psd
+
+  chapters:
+    - index.qmd
+    - Chapter1.qmd
+    - Results.qmd
+    - Discussion.qmd
+    - references.qmd
+
+  site-url: https://nmfs-opensci.github.io/NOAA-tech-memo-template/
+  repo-url: https://github.com/Isabellagarf/Report_Example
+  repo-actions: [edit, source, issue]
+  search: true
+
+bibliography: 
+  - references.bib
+
+execute:
+  echo: false
+  code-overflow: wrap
+  freeze: auto
+
+format:
+  docx:
+    toc: true
+    toc-depth: 2
+    reference-doc: template.docx
+    always_allow_html: true
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+  titlepage-pdf:
+    documentclass: scrbook
+    classoption: ["oneside", "open=any"]
+    titlepage: "plain"
+    cite-method: biblatex
+
+metadata-files:
+  - _frontmatter.yml
+  
