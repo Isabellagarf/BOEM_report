@@ -13,10 +13,10 @@ book:
 
   chapters:
     - index.qmd
-    - Chapter1.qmd
-    - Results.qmd
-    - Discussion.qmd
-    - references.qmd
+    - text/Chapter1.qmd
+    - text/Results.qmd
+    - text/Discussion.qmd
+    - text/references.qmd
 
   site-url: https://nmfs-opensci.github.io/NOAA-tech-memo-template/
   repo-url: https://github.com/Isabellagarf/BOEM_report
