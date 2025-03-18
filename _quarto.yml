@@ -7,17 +7,6 @@ book:
   subtitle: Report prepared by NOAA Northeast Fisheries Science Center 
   date: 
   downloads: [pdf, docx]
-  author:
-  - name: 
-    affiliations:
-      - id: 
-        name: 
-        department: 
-        address: 
-         
-  - name: 
-    affiliations:
-      - ref: 
   - name: Sofie M. Van Parijs
     affiliations:
       - ref: nefsc-psd
